@@ -59,78 +59,79 @@ void loop() {
 //
 // Switch ON
 //
-        if      (firstThree == "slave01 05=1") {
+        if      (firstThree == "slave02 05=1") {
         Serial.println(" pin 5 set HIGH");
         digitalWrite(5,HIGH);
       }
-        else if (firstThree == "slave01 06=1") {
+        else if (firstThree == "slave02 06=1") {
         Serial.println(" pin 6 set HIGH");
         digitalWrite(6,HIGH);
       }
-      else if (firstThree == "slave01 07=1") {
+      else if (firstThree == "slave02 07=1") {
         Serial.println(" pin 7 set HIGH");
         digitalWrite(7,HIGH);
       }
-      else if (firstThree == "slave01 08=1") {
+      else if (firstThree == "slave02 08=1") {
         Serial.println(" pin 8 set HIGH");
+        RS485Serial.write(" pin 8 set HIGH");
         digitalWrite(8,HIGH);
       }
-      else if (firstThree == "slave01 09=1") {
+      else if (firstThree == "slave02 09=1") {
         Serial.println(" pin 9 set HIGH");
         digitalWrite(9,HIGH);
       }
-      else if (firstThree == "slave01 10=1") {
+      else if (firstThree == "slave02 10=1") {
         Serial.println(" pin 10 set HIGH");
         digitalWrite(10,HIGH);
       }
-      else if (firstThree == "slave01 11=1") {
+      else if (firstThree == "slave02 11=1") {
         Serial.println(" pin 11 set HIGH");
         digitalWrite(11,HIGH);
       }
-      else if (firstThree == "slave01 12=1") {
+      else if (firstThree == "slave02 12=1") {
         Serial.println(" pin 12 set HIGH");
         digitalWrite(12,HIGH);
       }
-      else if (firstThree == "slave01 13=1") {
+      else if (firstThree == "slave02 13=1") {
         Serial.println(" pin 13 set HIGH");
         digitalWrite(13,HIGH);
       }
 //
 // Switch OFF
 //
-      else if (firstThree == "slave01 05=0") {
+      else if (firstThree == "slave02 05=0") {
         Serial.println(" pin 5 set LOW");
         digitalWrite(5,LOW);
       }
-      else if (firstThree == "slave01 06=0") {
+      else if (firstThree == "slave02 06=0") {
         Serial.println(" pin 6 set LOW");
         digitalWrite(6,LOW);
       }
-            else if (firstThree == "slave01 07=0") {
+       else if (firstThree == "slave02 07=0") {
         Serial.println(" pin 7 set LOW");
         digitalWrite(7,LOW);
       }
-      else if (firstThree == "slave01 08=0") {
+      else if (firstThree == "slave02 08=0") {
         Serial.println(" pin 8 set LOW");
         digitalWrite(8,LOW);
       }
-      else if (firstThree == "slave01 09=0") {
+      else if (firstThree == "slave02 09=0") {
         Serial.println(" pin 9 set LOW");
         digitalWrite(9,LOW);
       }
-      else if (firstThree == "slave01 10=0") {
+      else if (firstThree == "slave02 10=0") {
         Serial.println(" pin 10 set LOW");
         digitalWrite(10,LOW);
       }
-      else if (firstThree == "slave01 11=0") {
+      else if (firstThree == "slave02 11=0") {
         Serial.println(" pin 11 set LOW");
         digitalWrite(11,LOW);
       }
-      else if (firstThree == "slave01 12=0") {
+      else if (firstThree == "slave02 12=0") {
         Serial.println(" pin 12 set LOW");
         digitalWrite(12,LOW);
       }
-      else if (firstThree == "slave01 13=0") {
+      else if (firstThree == "slave02 13=0") {
         Serial.println(" pin 13 set LOW");
         digitalWrite(13,LOW);
       }
